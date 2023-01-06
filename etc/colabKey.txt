@@ -1,0 +1,5 @@
+1. ctrl + m + m : 텍스트 추가
+2. ctrl + m + b : 코드 추가
+3. ctrl + m + k : 위로 셀 이동
+4. ctrl + m + j : 아래로 셀 이동
+5. ctrl + m + z : 실행 취소
