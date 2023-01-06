@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_71037bf0e1c4c2eb1732d8af02c21c80 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_71037bf0e1c4c2eb1732d8af02c21c80" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_71037bf0e1c4c2eb1732d8af02c21c80 = L.map(
+                "map_71037bf0e1c4c2eb1732d8af02c21c80",
+                {
+                    center: [35.143143, 129.056251],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9dbc3463474652e1dd9b24d3136b764c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var marker_37af43030ec95f3370e3c47d8bbdef0d = L.marker(
+                [35.1429679, 129.0340908],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_6efcfeb6d39daf45220bcd3dff9697ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_37af43030ec95f3370e3c47d8bbdef0d.setIcon(icon_6efcfeb6d39daf45220bcd3dff9697ba);
+        
+    
+        var popup_daa568555bc8810bcb83b96e17ced0e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e016e54e032cdeeb473311b027a5f2a = $(`<div id="html_9e016e54e032cdeeb473311b027a5f2a" style="width: 100.0%; height: 100.0%;">동의대학교 가야캠퍼스</div>`)[0];
+            popup_daa568555bc8810bcb83b96e17ced0e1.setContent(html_9e016e54e032cdeeb473311b027a5f2a);
+        
+
+        marker_37af43030ec95f3370e3c47d8bbdef0d.bindPopup(popup_daa568555bc8810bcb83b96e17ced0e1)
+        ;
+
+        
+    
+    
+            var marker_a5dc9336dbc21a17598146d27a524b66 = L.marker(
+                [35.1431432, 129.056251],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_1e5967d12bab2ed646290e71000e9238 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a5dc9336dbc21a17598146d27a524b66.setIcon(icon_1e5967d12bab2ed646290e71000e9238);
+        
+    
+        var popup_134b16b16d8821fc091caf2b137324aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f24dc8911f775d8af879795ebedf336e = $(`<div id="html_f24dc8911f775d8af879795ebedf336e" style="width: 100.0%; height: 100.0%;">은마석유(주) 항도주유소/1467</div>`)[0];
+            popup_134b16b16d8821fc091caf2b137324aa.setContent(html_f24dc8911f775d8af879795ebedf336e);
+        
+
+        marker_a5dc9336dbc21a17598146d27a524b66.bindPopup(popup_134b16b16d8821fc091caf2b137324aa)
+        ;
+
+        
+    
+    
+            var marker_542c269a7e747ec2f2f7fef5dfdc2824 = L.marker(
+                [35.1650993, 129.0347218],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_20ad81f10255f43c53bed79d7b0d2c16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_542c269a7e747ec2f2f7fef5dfdc2824.setIcon(icon_20ad81f10255f43c53bed79d7b0d2c16);
+        
+    
+        var popup_ac7bfaa0e97f34d602326964edba04d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0a394893e71d14b296ab11e7d7662c6 = $(`<div id="html_c0a394893e71d14b296ab11e7d7662c6" style="width: 100.0%; height: 100.0%;">스마일주유소/1487</div>`)[0];
+            popup_ac7bfaa0e97f34d602326964edba04d8.setContent(html_c0a394893e71d14b296ab11e7d7662c6);
+        
+
+        marker_542c269a7e747ec2f2f7fef5dfdc2824.bindPopup(popup_ac7bfaa0e97f34d602326964edba04d8)
+        ;
+
+        
+    
+    
+            var marker_ae01adcd4596e3aba0c5006535e534c3 = L.marker(
+                [35.1628772, 129.0545073],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_8c04a8195a88cc8e9b35e3c4213ac3e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ae01adcd4596e3aba0c5006535e534c3.setIcon(icon_8c04a8195a88cc8e9b35e3c4213ac3e3);
+        
+    
+        var popup_f27282bb9d9553785ea918df3860326c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73de88378f00249528d1d2329329b7f3 = $(`<div id="html_73de88378f00249528d1d2329329b7f3" style="width: 100.0%; height: 100.0%;">대양주유소/1493</div>`)[0];
+            popup_f27282bb9d9553785ea918df3860326c.setContent(html_73de88378f00249528d1d2329329b7f3);
+        
+
+        marker_ae01adcd4596e3aba0c5006535e534c3.bindPopup(popup_f27282bb9d9553785ea918df3860326c)
+        ;
+
+        
+    
+    
+            var marker_5ecbfe140dadf8d7a0fb0857706efd75 = L.marker(
+                [35.1647891, 129.0317838],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_0afce3a16f013a0a18c39096e36abd85 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5ecbfe140dadf8d7a0fb0857706efd75.setIcon(icon_0afce3a16f013a0a18c39096e36abd85);
+        
+    
+        var popup_6d949f037f7bc0c35ac3f0aac5293d0e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d66822bafcb9b30bc980e510410ba0f = $(`<div id="html_2d66822bafcb9b30bc980e510410ba0f" style="width: 100.0%; height: 100.0%;">대흥주유소/1495</div>`)[0];
+            popup_6d949f037f7bc0c35ac3f0aac5293d0e.setContent(html_2d66822bafcb9b30bc980e510410ba0f);
+        
+
+        marker_5ecbfe140dadf8d7a0fb0857706efd75.bindPopup(popup_6d949f037f7bc0c35ac3f0aac5293d0e)
+        ;
+
+        
+    
+    
+            var marker_8beb93b4e4e30b07312c991942e3fe8e = L.marker(
+                [35.1740867, 129.0684074],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_965a5c5ba09ecc75ca630654089d02c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8beb93b4e4e30b07312c991942e3fe8e.setIcon(icon_965a5c5ba09ecc75ca630654089d02c6);
+        
+    
+        var popup_d3783b604effa3428c5a40e79bef1086 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e8c6df03c95f2dee003f8277aa34a07 = $(`<div id="html_6e8c6df03c95f2dee003f8277aa34a07" style="width: 100.0%; height: 100.0%;">(주)우양네트웍스 하마정주유소/1495</div>`)[0];
+            popup_d3783b604effa3428c5a40e79bef1086.setContent(html_6e8c6df03c95f2dee003f8277aa34a07);
+        
+
+        marker_8beb93b4e4e30b07312c991942e3fe8e.bindPopup(popup_d3783b604effa3428c5a40e79bef1086)
+        ;
+
+        
+    
+    
+            var marker_1cce3a407aa7b45422849d5d7a4abbf8 = L.marker(
+                [35.1513875, 129.0167139],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_d8fa9372ed0d1579de70cc5557274554 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1cce3a407aa7b45422849d5d7a4abbf8.setIcon(icon_d8fa9372ed0d1579de70cc5557274554);
+        
+    
+        var popup_32811b1d882489ded6c6d0f6ece9a545 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e3b9d6a10bb463221f50c915cc62d6c = $(`<div id="html_5e3b9d6a10bb463221f50c915cc62d6c" style="width: 100.0%; height: 100.0%;">(주)태화주유소/1497</div>`)[0];
+            popup_32811b1d882489ded6c6d0f6ece9a545.setContent(html_5e3b9d6a10bb463221f50c915cc62d6c);
+        
+
+        marker_1cce3a407aa7b45422849d5d7a4abbf8.bindPopup(popup_32811b1d882489ded6c6d0f6ece9a545)
+        ;
+
+        
+    
+    
+            var marker_6afd2ad88335a7d7f16d585b4bbafb73 = L.marker(
+                [35.1571424, 129.0253279],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_c50087d4f17520d8db1bbd0c8814f6be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6afd2ad88335a7d7f16d585b4bbafb73.setIcon(icon_c50087d4f17520d8db1bbd0c8814f6be);
+        
+    
+        var popup_99e0f12745eac780870d9989f5a70538 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38fd2499a2b6a58e8e096185c19e0e95 = $(`<div id="html_38fd2499a2b6a58e8e096185c19e0e95" style="width: 100.0%; height: 100.0%;">(주)주공에너지/1498</div>`)[0];
+            popup_99e0f12745eac780870d9989f5a70538.setContent(html_38fd2499a2b6a58e8e096185c19e0e95);
+        
+
+        marker_6afd2ad88335a7d7f16d585b4bbafb73.bindPopup(popup_99e0f12745eac780870d9989f5a70538)
+        ;
+
+        
+    
+    
+            var marker_6baabc60760d71a3454623bc28669305 = L.marker(
+                [35.1717192, 129.0583923],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_5f8c56cac0d78f3a3b1fb62ee4e2c7aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6baabc60760d71a3454623bc28669305.setIcon(icon_5f8c56cac0d78f3a3b1fb62ee4e2c7aa);
+        
+    
+        var popup_b74e3d74fd26c30dd2034dbf8511e96b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e39757d76b3fe792ead4450167738572 = $(`<div id="html_e39757d76b3fe792ead4450167738572" style="width: 100.0%; height: 100.0%;">지에스칼텍스㈜ 성지주유소/1499</div>`)[0];
+            popup_b74e3d74fd26c30dd2034dbf8511e96b.setContent(html_e39757d76b3fe792ead4450167738572);
+        
+
+        marker_6baabc60760d71a3454623bc28669305.bindPopup(popup_b74e3d74fd26c30dd2034dbf8511e96b)
+        ;
+
+        
+    
+    
+            var marker_f79d1c76f26166368f8d9f01a9cb2c6d = L.marker(
+                [35.1750635, 129.064759],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_500f76acc79499bbd02cf58937aeb195 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f79d1c76f26166368f8d9f01a9cb2c6d.setIcon(icon_500f76acc79499bbd02cf58937aeb195);
+        
+    
+        var popup_a53070ca8a283229edac973f9844661e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aad45ae8c19547f41b30f802a94945db = $(`<div id="html_aad45ae8c19547f41b30f802a94945db" style="width: 100.0%; height: 100.0%;">광신석유(주)직영 양정주유소/1499</div>`)[0];
+            popup_a53070ca8a283229edac973f9844661e.setContent(html_aad45ae8c19547f41b30f802a94945db);
+        
+
+        marker_f79d1c76f26166368f8d9f01a9cb2c6d.bindPopup(popup_a53070ca8a283229edac973f9844661e)
+        ;
+
+        
+    
+    
+            var marker_470709e361beab9763ff7d7c2b624758 = L.marker(
+                [35.1523332, 129.033005],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_d75695c9c35be515fbfd12212d8f040c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_470709e361beab9763ff7d7c2b624758.setIcon(icon_d75695c9c35be515fbfd12212d8f040c);
+        
+    
+        var popup_fd193a30d2cdefbd5ceff727abab9213 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_501b51fc5e097a0cdd3d7311b67c57b7 = $(`<div id="html_501b51fc5e097a0cdd3d7311b67c57b7" style="width: 100.0%; height: 100.0%;">가야주유소/1509</div>`)[0];
+            popup_fd193a30d2cdefbd5ceff727abab9213.setContent(html_501b51fc5e097a0cdd3d7311b67c57b7);
+        
+
+        marker_470709e361beab9763ff7d7c2b624758.bindPopup(popup_fd193a30d2cdefbd5ceff727abab9213)
+        ;
+
+        
+    
+    
+            var marker_5f6b1b242bdf0e92f8f0ba7f24d7c970 = L.marker(
+                [35.1570772, 129.0241933],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_c96d8c440895fc59ea71670aa7a76285 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5f6b1b242bdf0e92f8f0ba7f24d7c970.setIcon(icon_c96d8c440895fc59ea71670aa7a76285);
+        
+    
+        var popup_5ee8027546125ff6aab4095e5af49c04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5828e611a83c73942ac87acb96ce53f = $(`<div id="html_e5828e611a83c73942ac87acb96ce53f" style="width: 100.0%; height: 100.0%;">진성주유소/1518</div>`)[0];
+            popup_5ee8027546125ff6aab4095e5af49c04.setContent(html_e5828e611a83c73942ac87acb96ce53f);
+        
+
+        marker_5f6b1b242bdf0e92f8f0ba7f24d7c970.bindPopup(popup_5ee8027546125ff6aab4095e5af49c04)
+        ;
+
+        
+    
+    
+            var marker_bf5a66be33d06c1eafd1f84646d3c52c = L.marker(
+                [35.1620401, 129.0409177],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_cfd7d8a6375db26f8eac0fb352a823f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bf5a66be33d06c1eafd1f84646d3c52c.setIcon(icon_cfd7d8a6375db26f8eac0fb352a823f3);
+        
+    
+        var popup_aa32002d3444dad19b764a25ab3adea6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2544c74ffbf2a430107a7ad5289fe1b = $(`<div id="html_e2544c74ffbf2a430107a7ad5289fe1b" style="width: 100.0%; height: 100.0%;">명품주유소 당감점/1519</div>`)[0];
+            popup_aa32002d3444dad19b764a25ab3adea6.setContent(html_e2544c74ffbf2a430107a7ad5289fe1b);
+        
+
+        marker_bf5a66be33d06c1eafd1f84646d3c52c.bindPopup(popup_aa32002d3444dad19b764a25ab3adea6)
+        ;
+
+        
+    
+    
+            var marker_f2090a4efabea7c668984d5dbceacaf0 = L.marker(
+                [35.1704787, 129.0531421],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_8d0877b571ec85fb4d833a4c42dc0446 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f2090a4efabea7c668984d5dbceacaf0.setIcon(icon_8d0877b571ec85fb4d833a4c42dc0446);
+        
+    
+        var popup_0c982e960338ff52e868a85ba6a590c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17042a69dd74ddb6e0e06f45e8b2270a = $(`<div id="html_17042a69dd74ddb6e0e06f45e8b2270a" style="width: 100.0%; height: 100.0%;">SK에너지(주) 연지오토self/1529</div>`)[0];
+            popup_0c982e960338ff52e868a85ba6a590c2.setContent(html_17042a69dd74ddb6e0e06f45e8b2270a);
+        
+
+        marker_f2090a4efabea7c668984d5dbceacaf0.bindPopup(popup_0c982e960338ff52e868a85ba6a590c2)
+        ;
+
+        
+    
+    
+            var marker_41a6941e1186fe95eb52474454ba6c6f = L.marker(
+                [35.1584115, 129.0521134],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_bd9b5102ef61ca07e5a598b429317846 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_41a6941e1186fe95eb52474454ba6c6f.setIcon(icon_bd9b5102ef61ca07e5a598b429317846);
+        
+    
+        var popup_31af4388cf2e5ac11a502751b52c7e15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0bc30d05886ac95d298cd230379e4be6 = $(`<div id="html_0bc30d05886ac95d298cd230379e4be6" style="width: 100.0%; height: 100.0%;">영우에너지 부전주유소/1535</div>`)[0];
+            popup_31af4388cf2e5ac11a502751b52c7e15.setContent(html_0bc30d05886ac95d298cd230379e4be6);
+        
+
+        marker_41a6941e1186fe95eb52474454ba6c6f.bindPopup(popup_31af4388cf2e5ac11a502751b52c7e15)
+        ;
+
+        
+    
+    
+            var marker_75ce814381375a96b706fca4e40e479a = L.marker(
+                [35.14990239999999, 129.0630922],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_9523d79554f8336190a3b730efdbd613 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_75ce814381375a96b706fca4e40e479a.setIcon(icon_9523d79554f8336190a3b730efdbd613);
+        
+    
+        var popup_5272390c51e6a177fa0987ca01acc758 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57065892f0f870cc99247bc385ce630c = $(`<div id="html_57065892f0f870cc99247bc385ce630c" style="width: 100.0%; height: 100.0%;">동방석유(주)sk전포주유소/1549</div>`)[0];
+            popup_5272390c51e6a177fa0987ca01acc758.setContent(html_57065892f0f870cc99247bc385ce630c);
+        
+
+        marker_75ce814381375a96b706fca4e40e479a.bindPopup(popup_5272390c51e6a177fa0987ca01acc758)
+        ;
+
+        
+    
+    
+            var marker_7dfa08d171563c927905bd33bb7d0e63 = L.marker(
+                [35.1494411, 129.0666541],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_72d0d32454044b880f0df448723ddc16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7dfa08d171563c927905bd33bb7d0e63.setIcon(icon_72d0d32454044b880f0df448723ddc16);
+        
+    
+        var popup_f29c5f7927a71912626de3b2a9840b22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62d0a5c5def48d14cfdcb73c48cdd1e5 = $(`<div id="html_62d0a5c5def48d14cfdcb73c48cdd1e5" style="width: 100.0%; height: 100.0%;">동방석유(주)황령산주유소/1569</div>`)[0];
+            popup_f29c5f7927a71912626de3b2a9840b22.setContent(html_62d0a5c5def48d14cfdcb73c48cdd1e5);
+        
+
+        marker_7dfa08d171563c927905bd33bb7d0e63.bindPopup(popup_f29c5f7927a71912626de3b2a9840b22)
+        ;
+
+        
+    
+    
+            var marker_73784eb32766e54e548d7191fb303aec = L.marker(
+                [35.1767011, 129.0486631],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_f412d02d38897f4ddc454dac4c8bddd4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_73784eb32766e54e548d7191fb303aec.setIcon(icon_f412d02d38897f4ddc454dac4c8bddd4);
+        
+    
+        var popup_6f419aaefa2aa926b1db8c80075fc08a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f54c59508faede00210afc9eb87db070 = $(`<div id="html_f54c59508faede00210afc9eb87db070" style="width: 100.0%; height: 100.0%;">럭키주유소/1578</div>`)[0];
+            popup_6f419aaefa2aa926b1db8c80075fc08a.setContent(html_f54c59508faede00210afc9eb87db070);
+        
+
+        marker_73784eb32766e54e548d7191fb303aec.bindPopup(popup_6f419aaefa2aa926b1db8c80075fc08a)
+        ;
+
+        
+    
+    
+            var marker_87ca487d7108b314925f2a33a4407408 = L.marker(
+                [35.1692505, 129.0395364],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_752ad5edc71b162d1e3d4cc81b7a0446 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_87ca487d7108b314925f2a33a4407408.setIcon(icon_752ad5edc71b162d1e3d4cc81b7a0446);
+        
+    
+        var popup_357ce379ff8417fe87e34156b152460e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7626ba3431b67e6c561c7cbb21e4f8e5 = $(`<div id="html_7626ba3431b67e6c561c7cbb21e4f8e5" style="width: 100.0%; height: 100.0%;">한일주유소/1689</div>`)[0];
+            popup_357ce379ff8417fe87e34156b152460e.setContent(html_7626ba3431b67e6c561c7cbb21e4f8e5);
+        
+
+        marker_87ca487d7108b314925f2a33a4407408.bindPopup(popup_357ce379ff8417fe87e34156b152460e)
+        ;
+
+        
+    
+    
+            var marker_94a0b43615f7025c947e8db46c357a48 = L.marker(
+                [35.152255, 129.0673311],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_6432bcca0b05d0f935f9a2f70f6fcf0c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_94a0b43615f7025c947e8db46c357a48.setIcon(icon_6432bcca0b05d0f935f9a2f70f6fcf0c);
+        
+    
+        var popup_6eefe10f796dabf0db41f3c148348c5c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dbc127ef72d12c250bb186398e75ac98 = $(`<div id="html_dbc127ef72d12c250bb186398e75ac98" style="width: 100.0%; height: 100.0%;">케이제이주유소/1698</div>`)[0];
+            popup_6eefe10f796dabf0db41f3c148348c5c.setContent(html_dbc127ef72d12c250bb186398e75ac98);
+        
+
+        marker_94a0b43615f7025c947e8db46c357a48.bindPopup(popup_6eefe10f796dabf0db41f3c148348c5c)
+        ;
+
+        
+    
+    
+            var marker_63b594454c8c87050402745bde96d41a = L.marker(
+                [35.1539283, 129.0292376],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_3899151638d4bec9d70b2045beb583a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_63b594454c8c87050402745bde96d41a.setIcon(icon_3899151638d4bec9d70b2045beb583a4);
+        
+    
+        var popup_08aa407ab9d297b8bdb8c4b1e51fab18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64ed66a028d0f8ca4aaaf23f6b759df7 = $(`<div id="html_64ed66a028d0f8ca4aaaf23f6b759df7" style="width: 100.0%; height: 100.0%;">대명주유소/1698</div>`)[0];
+            popup_08aa407ab9d297b8bdb8c4b1e51fab18.setContent(html_64ed66a028d0f8ca4aaaf23f6b759df7);
+        
+
+        marker_63b594454c8c87050402745bde96d41a.bindPopup(popup_08aa407ab9d297b8bdb8c4b1e51fab18)
+        ;
+
+        
+    
+    
+            var marker_bc6a8089ef9e663abf10dfcca0528049 = L.marker(
+                [35.1507385, 129.0558147],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_a6b5fb8ca987ab4e8709c1f7ef9fdd74 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bc6a8089ef9e663abf10dfcca0528049.setIcon(icon_a6b5fb8ca987ab4e8709c1f7ef9fdd74);
+        
+    
+        var popup_039ebd0817d6fd99b9749448a2037865 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee2ba758270757a717e0ff97dfeeada4 = $(`<div id="html_ee2ba758270757a717e0ff97dfeeada4" style="width: 100.0%; height: 100.0%;">광신석유(주)직영 범천주유소/1999</div>`)[0];
+            popup_039ebd0817d6fd99b9749448a2037865.setContent(html_ee2ba758270757a717e0ff97dfeeada4);
+        
+
+        marker_bc6a8089ef9e663abf10dfcca0528049.bindPopup(popup_039ebd0817d6fd99b9749448a2037865)
+        ;
+
+        
+    
+    
+            var marker_2bad1b015a5bbf0a060a5d130e2d9421 = L.marker(
+                [35.1431432, 129.056251],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_fcfa847f0b14020e23f0ca594ff39714 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2bad1b015a5bbf0a060a5d130e2d9421.setIcon(icon_fcfa847f0b14020e23f0ca594ff39714);
+        
+    
+        var popup_e3af6868b847a135a48d01c911d66c43 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4063dc66b8990fcb29ea15581847cd5d = $(`<div id="html_4063dc66b8990fcb29ea15581847cd5d" style="width: 100.0%; height: 100.0%;">은마석유(주) 항도주유소/1467</div>`)[0];
+            popup_e3af6868b847a135a48d01c911d66c43.setContent(html_4063dc66b8990fcb29ea15581847cd5d);
+        
+
+        marker_2bad1b015a5bbf0a060a5d130e2d9421.bindPopup(popup_e3af6868b847a135a48d01c911d66c43)
+        ;
+
+        
+    
+    
+            var marker_8549e089c7f4b5a9cd853a4dca45d390 = L.marker(
+                [35.1650993, 129.0347218],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_8f25f6f3b78db68a5d0e019beb50e132 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8549e089c7f4b5a9cd853a4dca45d390.setIcon(icon_8f25f6f3b78db68a5d0e019beb50e132);
+        
+    
+        var popup_3b914ecaa9580c8a09042f2be8dff540 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b69f5f171dc8128f365d54d7122c40e = $(`<div id="html_5b69f5f171dc8128f365d54d7122c40e" style="width: 100.0%; height: 100.0%;">스마일주유소/1487</div>`)[0];
+            popup_3b914ecaa9580c8a09042f2be8dff540.setContent(html_5b69f5f171dc8128f365d54d7122c40e);
+        
+
+        marker_8549e089c7f4b5a9cd853a4dca45d390.bindPopup(popup_3b914ecaa9580c8a09042f2be8dff540)
+        ;
+
+        
+    
+    
+            var marker_90d47b60b743b463ade45b872970f66c = L.marker(
+                [35.1628772, 129.0545073],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_177410fed026f19178fd50a32f79f594 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_90d47b60b743b463ade45b872970f66c.setIcon(icon_177410fed026f19178fd50a32f79f594);
+        
+    
+        var popup_8624d652c3bdbfe0d8ba1436dd1b997f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e127d5c5435fcc9945656da75ed36691 = $(`<div id="html_e127d5c5435fcc9945656da75ed36691" style="width: 100.0%; height: 100.0%;">대양주유소/1493</div>`)[0];
+            popup_8624d652c3bdbfe0d8ba1436dd1b997f.setContent(html_e127d5c5435fcc9945656da75ed36691);
+        
+
+        marker_90d47b60b743b463ade45b872970f66c.bindPopup(popup_8624d652c3bdbfe0d8ba1436dd1b997f)
+        ;
+
+        
+    
+    
+            var marker_b92b04e2ce27b0302216793485e3325f = L.marker(
+                [35.1647891, 129.0317838],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_0f834b8b2a188dbc634a2eaa4fb59a60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b92b04e2ce27b0302216793485e3325f.setIcon(icon_0f834b8b2a188dbc634a2eaa4fb59a60);
+        
+    
+        var popup_ec250145a7a7fa278bdab19e03b71cb0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a275191d6a94f8414599011c3e69f64 = $(`<div id="html_8a275191d6a94f8414599011c3e69f64" style="width: 100.0%; height: 100.0%;">대흥주유소/1495</div>`)[0];
+            popup_ec250145a7a7fa278bdab19e03b71cb0.setContent(html_8a275191d6a94f8414599011c3e69f64);
+        
+
+        marker_b92b04e2ce27b0302216793485e3325f.bindPopup(popup_ec250145a7a7fa278bdab19e03b71cb0)
+        ;
+
+        
+    
+    
+            var marker_37f31b4196184510496d747fbab40c6c = L.marker(
+                [35.1740867, 129.0684074],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_fb0aa3b2898a2d5af9123e23ab382e59 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_37f31b4196184510496d747fbab40c6c.setIcon(icon_fb0aa3b2898a2d5af9123e23ab382e59);
+        
+    
+        var popup_83cb8f14042ff9a6f9cae22574954e60 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d73b9f5e0a54691c3f91e3e35cc5956 = $(`<div id="html_6d73b9f5e0a54691c3f91e3e35cc5956" style="width: 100.0%; height: 100.0%;">(주)우양네트웍스 하마정주유소/1495</div>`)[0];
+            popup_83cb8f14042ff9a6f9cae22574954e60.setContent(html_6d73b9f5e0a54691c3f91e3e35cc5956);
+        
+
+        marker_37f31b4196184510496d747fbab40c6c.bindPopup(popup_83cb8f14042ff9a6f9cae22574954e60)
+        ;
+
+        
+    
+    
+            var marker_f8a696593661f1a8bc2bb386f50b9975 = L.marker(
+                [35.1513875, 129.0167139],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_fd6d517813c3bd8acf4101ebb022ceed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f8a696593661f1a8bc2bb386f50b9975.setIcon(icon_fd6d517813c3bd8acf4101ebb022ceed);
+        
+    
+        var popup_760adc8db9b3c48a01e6d60fa9933db0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04a41871398ac3ad1a693d49fb172116 = $(`<div id="html_04a41871398ac3ad1a693d49fb172116" style="width: 100.0%; height: 100.0%;">(주)태화주유소/1497</div>`)[0];
+            popup_760adc8db9b3c48a01e6d60fa9933db0.setContent(html_04a41871398ac3ad1a693d49fb172116);
+        
+
+        marker_f8a696593661f1a8bc2bb386f50b9975.bindPopup(popup_760adc8db9b3c48a01e6d60fa9933db0)
+        ;
+
+        
+    
+    
+            var marker_f3ed5d1feea28f016df1e725eba0736e = L.marker(
+                [35.1571424, 129.0253279],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_1158d3c1ce8be3c0a942f230cd55533d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f3ed5d1feea28f016df1e725eba0736e.setIcon(icon_1158d3c1ce8be3c0a942f230cd55533d);
+        
+    
+        var popup_d975b7a37b65786991a83cacc2e73155 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0c5a4618f31820a72cedfaee127fe12 = $(`<div id="html_e0c5a4618f31820a72cedfaee127fe12" style="width: 100.0%; height: 100.0%;">(주)주공에너지/1498</div>`)[0];
+            popup_d975b7a37b65786991a83cacc2e73155.setContent(html_e0c5a4618f31820a72cedfaee127fe12);
+        
+
+        marker_f3ed5d1feea28f016df1e725eba0736e.bindPopup(popup_d975b7a37b65786991a83cacc2e73155)
+        ;
+
+        
+    
+    
+            var marker_eb362f9c164ee4513df9c20d1e4095a7 = L.marker(
+                [35.1717192, 129.0583923],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_e4f5542ea297ca9c86c73f713731961c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_eb362f9c164ee4513df9c20d1e4095a7.setIcon(icon_e4f5542ea297ca9c86c73f713731961c);
+        
+    
+        var popup_4bb0a2a1eb8ddd4670d4782a6f025530 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c4d1a5bf5b20c4ab297e0967904547e = $(`<div id="html_0c4d1a5bf5b20c4ab297e0967904547e" style="width: 100.0%; height: 100.0%;">지에스칼텍스㈜ 성지주유소/1499</div>`)[0];
+            popup_4bb0a2a1eb8ddd4670d4782a6f025530.setContent(html_0c4d1a5bf5b20c4ab297e0967904547e);
+        
+
+        marker_eb362f9c164ee4513df9c20d1e4095a7.bindPopup(popup_4bb0a2a1eb8ddd4670d4782a6f025530)
+        ;
+
+        
+    
+    
+            var marker_d7fad3aa88351b0c5da54883999152db = L.marker(
+                [35.1750635, 129.064759],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_bc9cd91b8f9f35e69e64c030179b8f76 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d7fad3aa88351b0c5da54883999152db.setIcon(icon_bc9cd91b8f9f35e69e64c030179b8f76);
+        
+    
+        var popup_5c0901943c97e0588880d9190cb920ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2aa95e558781dc4b8f408a958aabeefa = $(`<div id="html_2aa95e558781dc4b8f408a958aabeefa" style="width: 100.0%; height: 100.0%;">광신석유(주)직영 양정주유소/1499</div>`)[0];
+            popup_5c0901943c97e0588880d9190cb920ca.setContent(html_2aa95e558781dc4b8f408a958aabeefa);
+        
+
+        marker_d7fad3aa88351b0c5da54883999152db.bindPopup(popup_5c0901943c97e0588880d9190cb920ca)
+        ;
+
+        
+    
+    
+            var marker_9a21ab6627ba2ee4522d8580a1ad62d1 = L.marker(
+                [35.1523332, 129.033005],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_aca0cfed1b1c16826735be0641e63a9d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9a21ab6627ba2ee4522d8580a1ad62d1.setIcon(icon_aca0cfed1b1c16826735be0641e63a9d);
+        
+    
+        var popup_ce655e9527dbc1e4006def87df32ef70 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07d441eaac700a67972b630ad8b97076 = $(`<div id="html_07d441eaac700a67972b630ad8b97076" style="width: 100.0%; height: 100.0%;">가야주유소/1509</div>`)[0];
+            popup_ce655e9527dbc1e4006def87df32ef70.setContent(html_07d441eaac700a67972b630ad8b97076);
+        
+
+        marker_9a21ab6627ba2ee4522d8580a1ad62d1.bindPopup(popup_ce655e9527dbc1e4006def87df32ef70)
+        ;
+
+        
+    
+    
+            var marker_a87542bb6c118d3d82351e858661f77f = L.marker(
+                [35.1570772, 129.0241933],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_760e475bb538b53c9081ddf4eaeaf736 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a87542bb6c118d3d82351e858661f77f.setIcon(icon_760e475bb538b53c9081ddf4eaeaf736);
+        
+    
+        var popup_23f67938b68df3c60f0493470f5ac765 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dea058b2d0bd325e664976338912e177 = $(`<div id="html_dea058b2d0bd325e664976338912e177" style="width: 100.0%; height: 100.0%;">진성주유소/1518</div>`)[0];
+            popup_23f67938b68df3c60f0493470f5ac765.setContent(html_dea058b2d0bd325e664976338912e177);
+        
+
+        marker_a87542bb6c118d3d82351e858661f77f.bindPopup(popup_23f67938b68df3c60f0493470f5ac765)
+        ;
+
+        
+    
+    
+            var marker_51c9970000eb6de6ec27515ee5387866 = L.marker(
+                [35.1620401, 129.0409177],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_d097db3ee2614253beba933a408b6686 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_51c9970000eb6de6ec27515ee5387866.setIcon(icon_d097db3ee2614253beba933a408b6686);
+        
+    
+        var popup_dda30fd1581de64c2a807731a9ced2e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_047b4e877c0eef92aae2cf5b702290b8 = $(`<div id="html_047b4e877c0eef92aae2cf5b702290b8" style="width: 100.0%; height: 100.0%;">명품주유소 당감점/1519</div>`)[0];
+            popup_dda30fd1581de64c2a807731a9ced2e8.setContent(html_047b4e877c0eef92aae2cf5b702290b8);
+        
+
+        marker_51c9970000eb6de6ec27515ee5387866.bindPopup(popup_dda30fd1581de64c2a807731a9ced2e8)
+        ;
+
+        
+    
+    
+            var marker_a583838ae75a73717439860ca8280874 = L.marker(
+                [35.1704787, 129.0531421],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_57dc64e3d48d6286b07880839e6658cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a583838ae75a73717439860ca8280874.setIcon(icon_57dc64e3d48d6286b07880839e6658cd);
+        
+    
+        var popup_a6d3820e732af70c2622e57f46145e1d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45b33656eebb3a10ac38e8d411bdffb0 = $(`<div id="html_45b33656eebb3a10ac38e8d411bdffb0" style="width: 100.0%; height: 100.0%;">SK에너지(주) 연지오토self/1529</div>`)[0];
+            popup_a6d3820e732af70c2622e57f46145e1d.setContent(html_45b33656eebb3a10ac38e8d411bdffb0);
+        
+
+        marker_a583838ae75a73717439860ca8280874.bindPopup(popup_a6d3820e732af70c2622e57f46145e1d)
+        ;
+
+        
+    
+    
+            var marker_7d28b6332a535afcde20c81aeecc8a20 = L.marker(
+                [35.1584115, 129.0521134],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_c7411a6e7c79c6f32980eab5b60b4696 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7d28b6332a535afcde20c81aeecc8a20.setIcon(icon_c7411a6e7c79c6f32980eab5b60b4696);
+        
+    
+        var popup_d5b225ec525022109a40ddf9fb2168eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01824a15c782ba26b1d44442c4371725 = $(`<div id="html_01824a15c782ba26b1d44442c4371725" style="width: 100.0%; height: 100.0%;">영우에너지 부전주유소/1535</div>`)[0];
+            popup_d5b225ec525022109a40ddf9fb2168eb.setContent(html_01824a15c782ba26b1d44442c4371725);
+        
+
+        marker_7d28b6332a535afcde20c81aeecc8a20.bindPopup(popup_d5b225ec525022109a40ddf9fb2168eb)
+        ;
+
+        
+    
+    
+            var marker_da0ccaac70d00fc7f4f32d6db0333a03 = L.marker(
+                [35.14990239999999, 129.0630922],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_bc4424a100b14e12ddb2ef781e7568c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_da0ccaac70d00fc7f4f32d6db0333a03.setIcon(icon_bc4424a100b14e12ddb2ef781e7568c9);
+        
+    
+        var popup_b90883998b91740d5c469598f9dd9ce2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72a569165f14d324023fbd8a48b665d0 = $(`<div id="html_72a569165f14d324023fbd8a48b665d0" style="width: 100.0%; height: 100.0%;">동방석유(주)sk전포주유소/1549</div>`)[0];
+            popup_b90883998b91740d5c469598f9dd9ce2.setContent(html_72a569165f14d324023fbd8a48b665d0);
+        
+
+        marker_da0ccaac70d00fc7f4f32d6db0333a03.bindPopup(popup_b90883998b91740d5c469598f9dd9ce2)
+        ;
+
+        
+    
+    
+            var marker_c31e8ff8dc51134bc351b8ab0cb76559 = L.marker(
+                [35.1494411, 129.0666541],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_748b2ca8fd02bc84b0aa82f554c265bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c31e8ff8dc51134bc351b8ab0cb76559.setIcon(icon_748b2ca8fd02bc84b0aa82f554c265bc);
+        
+    
+        var popup_8a27b6f1dc67ae471a8ce20c0a0e8b96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_988356d28a03958b3dc7094f886987dc = $(`<div id="html_988356d28a03958b3dc7094f886987dc" style="width: 100.0%; height: 100.0%;">동방석유(주)황령산주유소/1569</div>`)[0];
+            popup_8a27b6f1dc67ae471a8ce20c0a0e8b96.setContent(html_988356d28a03958b3dc7094f886987dc);
+        
+
+        marker_c31e8ff8dc51134bc351b8ab0cb76559.bindPopup(popup_8a27b6f1dc67ae471a8ce20c0a0e8b96)
+        ;
+
+        
+    
+    
+            var marker_b1b71439955b02681b078aeb7abca45e = L.marker(
+                [35.1767011, 129.0486631],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_5bba843fcf43e24e2b227e8d892b4492 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b1b71439955b02681b078aeb7abca45e.setIcon(icon_5bba843fcf43e24e2b227e8d892b4492);
+        
+    
+        var popup_0e728af283d307fdced133dffa95191f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f98f3ce73cb5e39d1ef6368133aff8d = $(`<div id="html_7f98f3ce73cb5e39d1ef6368133aff8d" style="width: 100.0%; height: 100.0%;">럭키주유소/1578</div>`)[0];
+            popup_0e728af283d307fdced133dffa95191f.setContent(html_7f98f3ce73cb5e39d1ef6368133aff8d);
+        
+
+        marker_b1b71439955b02681b078aeb7abca45e.bindPopup(popup_0e728af283d307fdced133dffa95191f)
+        ;
+
+        
+    
+    
+            var marker_87bf82861d10007418dd1ff622bc359f = L.marker(
+                [35.1692505, 129.0395364],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_64ad9602733295b5218fd7d544580699 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_87bf82861d10007418dd1ff622bc359f.setIcon(icon_64ad9602733295b5218fd7d544580699);
+        
+    
+        var popup_e343e2ec50c5e09a5925850868d9af22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1e999992dc583e55436a6687befb291 = $(`<div id="html_f1e999992dc583e55436a6687befb291" style="width: 100.0%; height: 100.0%;">한일주유소/1689</div>`)[0];
+            popup_e343e2ec50c5e09a5925850868d9af22.setContent(html_f1e999992dc583e55436a6687befb291);
+        
+
+        marker_87bf82861d10007418dd1ff622bc359f.bindPopup(popup_e343e2ec50c5e09a5925850868d9af22)
+        ;
+
+        
+    
+    
+            var marker_e7d1d35fdc659fddc0dd58a6bc8ca2dd = L.marker(
+                [35.152255, 129.0673311],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_4316e8fe10abb754603fd0fcd6e64fa0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e7d1d35fdc659fddc0dd58a6bc8ca2dd.setIcon(icon_4316e8fe10abb754603fd0fcd6e64fa0);
+        
+    
+        var popup_9ad05f1fdc8ac060001fef47568b285a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51bda21a910d5553cc303adf06c4641b = $(`<div id="html_51bda21a910d5553cc303adf06c4641b" style="width: 100.0%; height: 100.0%;">케이제이주유소/1698</div>`)[0];
+            popup_9ad05f1fdc8ac060001fef47568b285a.setContent(html_51bda21a910d5553cc303adf06c4641b);
+        
+
+        marker_e7d1d35fdc659fddc0dd58a6bc8ca2dd.bindPopup(popup_9ad05f1fdc8ac060001fef47568b285a)
+        ;
+
+        
+    
+    
+            var marker_8452187f697c954030fce09451a7010a = L.marker(
+                [35.1539283, 129.0292376],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_b0f61d167e6de28d2fd9a58371bfdb97 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8452187f697c954030fce09451a7010a.setIcon(icon_b0f61d167e6de28d2fd9a58371bfdb97);
+        
+    
+        var popup_66102460fe330c5fc08faa62de4a92f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91818a56e2be0e035339e94f64fb8618 = $(`<div id="html_91818a56e2be0e035339e94f64fb8618" style="width: 100.0%; height: 100.0%;">대명주유소/1698</div>`)[0];
+            popup_66102460fe330c5fc08faa62de4a92f4.setContent(html_91818a56e2be0e035339e94f64fb8618);
+        
+
+        marker_8452187f697c954030fce09451a7010a.bindPopup(popup_66102460fe330c5fc08faa62de4a92f4)
+        ;
+
+        
+    
+    
+            var marker_a3a176707f2fc08f8e8abfa2da72ad59 = L.marker(
+                [35.1507385, 129.0558147],
+                {}
+            ).addTo(map_71037bf0e1c4c2eb1732d8af02c21c80);
+        
+    
+            var icon_c1d45584285b35f9f23e512f603ede30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a3a176707f2fc08f8e8abfa2da72ad59.setIcon(icon_c1d45584285b35f9f23e512f603ede30);
+        
+    
+        var popup_cf5bfd97917e042862e11c025fe29720 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e0893a10a895fd4ace3e5bb296dd3f6 = $(`<div id="html_1e0893a10a895fd4ace3e5bb296dd3f6" style="width: 100.0%; height: 100.0%;">광신석유(주)직영 범천주유소/1999</div>`)[0];
+            popup_cf5bfd97917e042862e11c025fe29720.setContent(html_1e0893a10a895fd4ace3e5bb296dd3f6);
+        
+
+        marker_a3a176707f2fc08f8e8abfa2da72ad59.bindPopup(popup_cf5bfd97917e042862e11c025fe29720)
+        ;
+
+        
+    
+</script>
+</html>
